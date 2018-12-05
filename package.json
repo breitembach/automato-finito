@@ -2,7 +2,7 @@
   "name": "automatojs",
   "version": "1.0.0",
   "description": "Projeto de fundamentos teóricos da computação",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
     "dev": "webpack-dev-server",
     "build": "webpack"
