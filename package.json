@@ -7,7 +7,22 @@
     "dev": "webpack-dev-server",
     "build": "webpack"
   },
-  "author": "lucas breitembach",
+  "author": {
+    "name": "Lucas Breitembach",
+    "url": "https://breitembach.github.io/"
+  },
+  "keywords": [
+    "Automato",
+    "Fundamentos teoricos da computação",
+    "ciencia da computacao",
+    "computacao",
+    "cientista de dados",
+    "engenharia da computacao",
+    "TI",
+    "automato de pilha",
+    "afn",
+    "afd"
+  ],
   "license": "ISC",
   "dependencies": {},
   "devDependencies": {
