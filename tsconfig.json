@@ -1,0 +1,17 @@
+{
+  "compilerOptions": {
+    "outDir": "./build/",
+    "declaration": true, // generate d.ts lib
+    "noImplicitAny": true,
+    "module": "commonjs",
+    "target": "es5",
+    "sourceMap": true,
+    "lib": ["es2017", "dom"] // to permission ObjectValues
+  },
+  "include": [
+    "./src/**/*"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

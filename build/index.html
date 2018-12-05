@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <title>Transoformador de afn's para afd's</title>
+</head>
+<body class="">
+  <div class="text-center fs-20">
+    <label>Procurar Arquivo AFN</label><br><br>
+    <input type="file" id="myFileInput">
+  </div>
+  <hr>
+  <div class="alert alert-danger text-center mt-3 d-none " id="msg-error" role="alert"></div>
+  <div class="row justify-content-center">
+
+    <div class="text-center mr-3"> 
+      <div class="card">
+        <div class="card-header">
+          AFN - entrada
+        </div>
+        <div class="card-body">
+          <textarea style="width:400px;height: 400px" id="myFileInputView" class="mr-3"></textarea>
+        </div>
+      </div>
+    </div>
+
+    <div class="text-center"> 
+      <div class="card">
+        <div class="card-header">
+          AFD - saida
+        </div>
+        <div class="card-body">
+          <textarea style="width:400px;height: 400px" id="myFileOutputView"></textarea> 
+        </div>
+        
+      </div>
+    </div>
+    <button id="btn-reload" class="btn btn-info" onclick="app.AppElements.reloadPage()">Limpar</button>
+  </div>
+  
+  <div class="alert alert-primary text-center mt-3" role="alert">
+    Documentação em README.md
+  </div>
+<script>
+  
+</script>
+<script type="text/javascript" src="bundle.js"></script></body>
+</html>
