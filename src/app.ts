@@ -25,4 +25,6 @@ AppElements.getFileEntryElement.addEventListener("change", function () {
  
 });
 
-export {automato, AppElements};
+
+export { automato, AppElements };
+
